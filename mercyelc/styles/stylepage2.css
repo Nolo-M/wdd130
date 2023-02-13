@@ -170,3 +170,25 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+@media screen and (max-width: 900px) {
+  .sm-home {
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  .blocks{ 
+    margin: 15px;
+    width: 100%;
+  }
+  .maze{ 
+    margin:0;
+    top: 100px;
+    left: 100px;
+  }
+}
